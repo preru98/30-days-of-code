@@ -3,20 +3,15 @@ using namespace std;
 
 int main(){
     int x;
+    string a="Weird";
+    string b="Not Weird";
     cin>>x;
 
-    if(x%2!=0){
-        cout<<"Weird";
+    if(x%2==0 &&( x<=4 || x>20)){
+        cout<<b;
     }
     else{
-        if(x>=2&&x<=5){
-            cout<<"Not Weird";
-        }
-        else if(x>=6 && x<=20){
-            cout<<"Weird";
-        }
-        else if(x>20){
-            cout<<"Not Weird";
-        }
+        cout<<a;
     }
+    return 0;
 }

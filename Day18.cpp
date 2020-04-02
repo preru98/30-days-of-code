@@ -3,6 +3,13 @@
 #include<queue>
 using namespace std;
 
+
+/*
+
+Write your own Solution class for the implementation of the task.
+
+*/
+
 class Solution {
         queue<char>Q;
         stack<char>S;
